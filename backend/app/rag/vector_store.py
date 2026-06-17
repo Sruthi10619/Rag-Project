@@ -47,7 +47,7 @@ def ingest_chunks(chunks: List[Dict[str, Any]], embeddings: List[List[float]]) -
     Upsert document chunks into ChromaDB in batches.
 
     Args:
-        chunks:     List of chunk dicts with keys: chunk_id, page_number, source, text.
+        chunks: List of `chunk dicts with keys: chunk_id, page_number, source, text.
         embeddings: Parallel list of embedding vectors.
 
     Returns:
