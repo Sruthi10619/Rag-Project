@@ -334,8 +334,4 @@ pytest tests/ -v -m "not slow"
 
 ---
 
-## Screenshots
 
-| Chat Page | Analytics Dashboard |
-|-----------|---------------------|
-| *(add screenshot)* | *(add screenshot)* |
